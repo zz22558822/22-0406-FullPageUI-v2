@@ -66,6 +66,17 @@ html, body {
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
   font-family: "Times New Roman";
+  text-shadow: 3px 3px 0px #000;
+}
+@media (max-width: 1300px) {
+  html, body {
+    text-shadow: 2px 2px 0px #000;
+  }
+}
+@media (max-width: 767px) {
+  html, body {
+    text-shadow: 1px 1px 0px #000;
+  }
 }
 
 .wrap {
@@ -90,6 +101,55 @@ html, body {
   text-align: center;
   font-weight: bold;
   color: #ff6768;
+  transition: all 0.3s;
+}
+.wrap .notData p:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 1850px) {
+  .wrap .notData p {
+    font-size: 130px;
+  }
+}
+@media (max-width: 1700px) {
+  .wrap .notData p {
+    font-size: 120px;
+  }
+}
+@media (max-width: 1600px) {
+  .wrap .notData p {
+    font-size: 110px;
+  }
+}
+@media (max-width: 1300px) {
+  .wrap .notData p {
+    font-size: 100px;
+  }
+}
+@media (max-width: 1100px) {
+  .wrap .notData p {
+    font-size: 80px;
+  }
+}
+@media (max-width: 914px) {
+  .wrap .notData p {
+    font-size: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .wrap .notData p {
+    font-size: 50px;
+  }
+}
+@media (max-width: 620px) {
+  .wrap .notData p {
+    font-size: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .wrap .notData p {
+    font-size: 30px;
+  }
 }
 .wrap .notData.no {
   display: none;
@@ -156,16 +216,7 @@ html, body {
   border-radius: 50px;
   text-align: center;
   white-space: nowrap;
-  box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -moz-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -o-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  background: #242424;
-}
-.wrap .card .card-top .name.no2 {
-  color: #000;
-  background: #FFF;
-  border: 3px solid #000;
+  background: rgba(255, 255, 255, 0.3);
 }
 .wrap .card .card-top .name h2 {
   position: absolute;
@@ -181,16 +232,7 @@ html, body {
   margin: 5px;
   border-radius: 50px;
   text-align: center;
-  box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -moz-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -o-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  background: #242424;
-}
-.wrap .card .card-top .condition.no2 {
-  color: #000;
-  background: #FFF;
-  border: 3px solid #000;
+  background: rgba(255, 255, 255, 0.3);
 }
 .wrap .card .card-top .condition p.ing {
   color: #73d89a;
@@ -212,16 +254,7 @@ html, body {
   margin: 5px;
   border-radius: 50px;
   text-align: center;
-  box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -moz-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -o-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  background: #242424;
-}
-.wrap .card .card-top .start-time.no2 {
-  color: #000;
-  background: #FFF;
-  border: 3px solid #000;
+  background: rgba(255, 255, 255, 0.3);
 }
 .wrap .card .card-mid {
   display: flex;
@@ -235,22 +268,13 @@ html, body {
   margin: 0 5px;
   border-radius: 50px;
   text-align: center;
-  box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -moz-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -o-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  background: #242424;
+  background: rgba(255, 255, 255, 0.3);
 }
 @media (max-width: 767px) {
   .wrap .card .card-mid .info {
     padding: 5px;
     margin: 10px 0;
   }
-}
-.wrap .card .card-mid .info.no2 {
-  color: #000;
-  background: #FFF;
-  border: 3px solid #000;
 }
 .wrap .card .card-mid .info h2 {
   text-align: left;
@@ -271,21 +295,12 @@ html, body {
   margin: 5px;
   border-radius: 50px;
   text-align: center;
-  box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -moz-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -o-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  background: #242424;
+  background: rgba(255, 255, 255, 0.3);
 }
 @media (max-width: 480px) {
   .wrap .card .card-down .end-time {
     font-size: 20px;
   }
-}
-.wrap .card .card-down .end-time.no2 {
-  color: #000;
-  background: #FFF;
-  border: 3px solid #000;
 }
 .wrap .card .card-down .end-time h2 {
   position: absolute;
@@ -301,11 +316,7 @@ html, body {
   margin: 5px;
   border-radius: 50px;
   text-align: center;
-  box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -moz-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  -o-box-shadow: inset 0px 0px 50px 0px #ABABAB, 5px 5px 5px 1px #242424;
-  background: #242424;
+  background: rgba(255, 255, 255, 0.3);
 }
 @media (max-width: 620px) {
   .wrap .card .card-down .expected {
@@ -313,11 +324,6 @@ html, body {
     flex-direction: column;
     justify-content: center;
   }
-}
-.wrap .card .card-down .expected.no2 {
-  color: #000;
-  background: #FFF;
-  border: 3px solid #000;
 }
 .wrap .card .card-down .expected p {
   padding: 20px 60px;
