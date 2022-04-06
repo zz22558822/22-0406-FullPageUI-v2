@@ -1,0 +1,61 @@
+/* RWD用 */
+@mixin pad-768{
+    @media(max-width:768px){
+    @content;
+    }
+}
+@mixin mobile-414{
+    @media(max-width:414px){
+        @content;
+    }
+}
+@mixin mobile-375{
+    @media(max-width:375px){
+    @content;
+    }
+}
+@mixin mobile-480{
+    @media(max-width:480px){
+    @content;
+    }
+}
+@mixin mobile-620{
+    @media(max-width:620px){
+        @content;
+    }
+}
+@mixin mobile-767{
+    @media(max-width:767px){
+        @content;
+    }
+}
+@mixin mobile-914{
+    @media(max-width:914px){
+        @content;
+    }
+}
+@mixin mobile-1100{
+    @media(max-width:1100px){
+        @content;
+    }
+}
+@mixin mobile-1300{
+    @media(max-width:1300px){
+        @content;
+    }
+}
+@mixin mobile-1600{
+    @media(max-width:1600px){
+        @content;
+    }
+}
+@mixin mobile-1700{
+    @media(max-width:1700px){
+        @content;
+    }
+}
+@mixin mobile-1850{
+    @media(max-width:1850px){
+        @content;
+    }
+}
